@@ -71,6 +71,7 @@ for (i in 1:2)
 #10          1Z Contact for Pricing 1 bed / 1 bath 728 sqft       UNAVAILABLE
 
 
+
     
   #amenities
     amenitiespath <- xpathSApply(docapt, "/html/body/div[2]/div/div[3]/div[3]/section[2]/div[2]/div/div", xmlValue)
